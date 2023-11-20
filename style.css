@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+.container{
+  display: block;
+  width: 100vw;
+  height: 300vh;
+  background-color: rgb(234, 229, 229);
+}
+
+.nav-box{
+  display: flex;
+  position: fixed;
+  max-width: 600vw;
+  width: 100vw;
+  height: 08%;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo{
+  color: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.7rem;
+}
+
+/* .nav-list{
+
+} */
+
+
+.nav-list li{
+  display: inline-block;
+  
+}
+
+.nav-list li a{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 0.9rem;
+font-weight: bolder;
+color: black;
+text-decoration: none;
+margin: 20px;
+}
+
+.main{
+  display: block;
+  width: 60%;
+  height: 300vh;
+  /* background-color: rgb(255, 255, 255); */
+  margin: 0 auto;
+}
+
+.sub h2{
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  font-family:'Poppins', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+
+}
+
+.body-con{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.items{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  top: 0px;
+}
+
+.body-con2{
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+  margin-top: 10px;
+}
+.items1{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  top: 0px;
+}
+

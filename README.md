@@ -1,1 +1,1 @@
-# marketing-template
+# marketing-template. An inspiration on how marketing platform used to look like, using css grid and flex.
